@@ -1,0 +1,95 @@
+@font-face {
+	font-family: ProximaNova-Regular;
+	src: url("fonts/ProximaNova-Regular.otf") format('opentype');
+}
+
+@font-face {
+	font-family: ProximaNova-Light;
+	src: url("fonts/ProximaNova-Light.otf") format('opentype');
+}
+
+
+body {
+	font-family: 'ProximaNova-Light';
+}
+
+.title {
+	font-family: 'ProximaNova-Regular';
+	font-size: 40px;
+}
+
+.focus, .location {
+	font-family: 'ProximaNova-Regular';
+	font-size: 16px;
+	color: #ADADAD;
+}
+
+section {
+	margin-left: 8%;
+}
+
+.pages {
+	font-family: 'ProximaNova-Regular';
+	font-size: 16px;
+	margin-top: 4%;
+	border-bottom: thin solid #000000;
+	padding-bottom: 5px;
+	width: 80%;
+}
+
+.home {
+	margin-top: 12%;
+}
+
+.logo {
+	margin-left: 5.5%;
+	margin-bottom: 30px;
+}
+
+.title {
+	margin-top: -1px;
+}
+
+.focus-group, .location-group {
+	position: relative;
+	float: left;
+	margin-right: 20%;
+}
+
+.vd {
+	margin-top: -10px;
+}
+
+.background-text {
+	margin-top: 3%;
+	width: 60%;
+	font-size: 16px;
+}
+
+.link {
+	text-decoration: none;
+	color: #08C4C4;
+}
+
+.link:hover {
+	color: #000;
+	background: #85DEDE;
+}
+
+.project-list {
+	margin-top: 5%;
+}
+
+.project-category {
+	font-family: 'ProximaNova-Regular';
+}
+
+.work span:hover {
+	color: #000;
+	background: #85DEDE;
+	cursor: pointer;
+}
+
+
+
+
