@@ -5,9 +5,11 @@
 	<title>Nina Dang's Portfolio</title>
 	<meta name="description" content="Nina Dang">
 	<link rel="stylesheet" type="text/css" href="css/onepage-scroll.css">
+	<link rel="stylesheet" type="text/css" href="css/foundation.css">
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-	<script type='text/javascript' src="js/jquery.onepage-scroll.js"></script>
+	<script type='text/javascript' src="js/main.js"></script>
+
 	<!--One Page Scroll-->
 	<script>
 		$(document).ready(function(){
@@ -58,40 +60,113 @@
 						<p class="location">LOCATION</p>
 						<p>Seattle, WA</p>
 					</div>
+					<div class="line"></div>
 				</div>
 			</div>
 		</section>
+
+		
 		<section class="page2" id="background">
-			<p class="pages">BACKGROUND</p>
+			<div class="sea">
+			<p class="pages" id="seapage">BACKGROUND</p>
 			<div class="background-text">
-				<p class>I'm a senior at the University of Washington and will be acquiring my Bachelor's Degree in <a class="link" href="https://ischool.uw.edu/academics/informatics/what-is-informatics" target="_blank">Informatics</a>. My major combines curriculum from areas including <a class="link" href="http://en.wikipedia.org/wiki/Human%E2%80%93computer_interaction">HCI</a>, <a class="link" href="http://en.wikipedia.org/wiki/User-centered_design">UCD</a>, and Web Development. 
+				<p>I'm a senior at the University of Washington and will be acquiring my Bachelor's Degree in <a class="link" href="https://ischool.uw.edu/academics/informatics/what-is-informatics" target="_blank">Informatics</a>. My major combines curriculum from areas including <a class="link" href="http://en.wikipedia.org/wiki/Human%E2%80%93computer_interaction">HCI</a>, <a class="link" href="http://en.wikipedia.org/wiki/User-centered_design">UCD</a>, and Web Development. 
 				</p>
-				<p class>I recently interned at <a class="link" href="http://us.blizzard.com/en-us/company/about/" target="_blank">Blizzard Entertainment</a>, where I designed an web application to enhance the usability of a Tableau Server. Currently, I'm the Teaching Assistant for a course on Data Visualization and Aesthetics. 
+				<p>I recently interned at <a class="link" href="http://us.blizzard.com/en-us/company/about/" target="_blank">Blizzard Entertainment</a>, where I designed an web application to enhance the usability of a Tableau Server. Currently, I'm the Teaching Assistant for a course on Data Visualization and Aesthetics. 
 			</p>
 			</div>
+			</div>
 		</section>
+		
+
 		<section class="page3" id="projects">
 			<p class="pages">PROJECTS</p>
-				<div class="project-list">
-					<p class="project-category">UX</p>
-					<p class="work"><span>BlizzStats</span></p>
-					<p class="work"><span>Aegean Cruises</span></p>
-					<p class="work"><span>Narrative</span></p>
-				</div>
-				<div class="project-list">
-					<p class="project-category">VISUAL DESIGN</p>
-					<p class="work"><span>Blizzard BI Logo</span></p>
-					<p class="work"><span>How Far Have We Travelled?</span></p>
-					<p class="work"><span>InfoCrafts</span></p>
-				<div>
-			</div>
+				<div class="row proj">
+					<div class="large-3 columns project-list">
+						<div class="ux">
+							<p class="project-category" id="cat">UX</p>
+							<p class="work 1"><span>BlizzStats</span></p>
+							<p class="work 2"><span>Aegean Cruises</span></p>
+							<p class="work 3"><span>Narrative</span></p>
+						</div>
+						
+						<p class="project-category" id="cat">VISUAL DESIGN</p>
+						<p class="work"><span>Blizzard BI Logo</span></p>
+						<p class="work"><span>How Far Have We Travelled?</span></p>
+						<p class="work"><span>InfoCrafts</span></p>
+					</div>
+					<div class="large-9 columns project-icons">
+						<div class="web">
+							<img class="1" src="img/blizzshot.png">
+							<img class="2" src="img/aegeanshot.png">
+							<img class="3" src="http://placehold.it/180x130">
+						</div>
+						<div class="des">
+							<img class="4" src="img/bishot.png">
+							<img class="5" src="img/infoshot.png">
+							<img class="6" src="img/day92shot.png">
+						</div>
+					</div>
+
+
+						<div class="description" id="1">
+							<div class="row header">
+								<p class="heading">BlizzStats</p>
+								<p class="affiliation">Blizzard Entertainment</p>
+								<p class="blurbtitle">Problem</p>
+								<p class="blurbtext">I was presented with a Tableau Server whose problematic interface stunted users' productivity.</p>
+								<p class="blurbtitle">Process</p>
+								<p class="blurbtext">Surveys, interviews, and critique meetings established my design choices and iterations. <br> Techstack: HTML5, CSS3, jQuery, PHP, PostgreSQL</p>
+								<img class="front" src="img/blizzmac.png" width="400px" height="400px">
+								<p class="blurbtitle">Result</p>
+								<p class="blurbtext" id="result">I designed the server to be more personal to Blizzard through the aesthetic and the new game categories. It also became personal to the user with the recently viewed feature.</p>
+							</div>
+						</div>
+						<div class="description" id="2">
+								<div class="row header">
+								<p class="heading">Aegean Cruises</p>
+								<p class="affiliation">Class Project</p>
+								<p class="blurbtitle">Problem</p>
+								<p class="blurbtext">The goal was to improve our satisfaction of cruiseline excursions through a website. The excursions themselves could not be changed and our target audience was teenagers.</p>
+								<p class="blurbtitle">Process</p>
+								<p class="blurbtext">Analysis of demographics, psychographics, personas, and 
+								context scenarios led us to consider the elements of friendship and sharing as catalysts for satisfaction. 
+								<img class="aegeanfront" src="img/aegeanmac.png" width="400px" height="400px">
+								<p class="blurbtitle">Result</p>
+								<p class="blurbtext" id="result">Seeing an influx of reactions from personal networks allows the impression to last long after the excursion is over. Thus, the website features a chat functionality to encourage the use of social media during and after the excursion.</p>
+							</div>
+						</div>
+						<div class="description" id="3">
+								<div class="row header">
+								<p class="heading">Narrative</p>
+								<p class="affiliation">Hackathon Project</p>
+								<p class="blurbtitle">Problem</p>
+								<p class="blurbtext">The theme of the hackathon was to create an application that fosters educational growth or benefit. We were given 53 hours to create a project.</p>
+								<p class="blurbtitle">Process</p>
+								<p class="blurbtext">Having two former teachers on our team, we listened to their past experiences and came to the idea of creative writing. We wanted to enhance the writing experience but still leave the creativity and freedom to the author. <br> Techstack: HTML5, CSS3, jQuery
+								
+								<p class="blurbtitle">Result</p>
+								<p class="blurbtext" id="result">Upon visiting the site, a random prompt paired with an image is generated for the user. The user types their narrative in the text editor and can refer to helpers on the side if they need more inspiration. </p>
+							</div>
+						</div>
+				
+				<div class="logo" id="4"></div>
+				<div class="logo" id="5"></div>
+				<div class="logo" id="6"></div>
 		</section>
 		<section class="page4" id="contact">
 			<p class="pages">CONTACT ME</p>
-			<p>ninadangt@gmail.com</p>
-			<p><a href="">My Resume</a></p>
-			<p><a href="">Dribble</a> | <a href="">LinkedIn</a></p>
+			<div class="contact-info">
+				<p>ninadangt@gmail.com</p>
+				<p><a class="link" href="NinaDangResume.pdf">My Resume</a></p>
+				<p><a class="link" href="https://www.linkedin.com/pub/nina-dang/86/634/400">LinkedIn</a></p>
+			</div>
 		</section>
 	</div>
+	<script type='text/javascript' src="js/jquery.onepage-scroll.js"></script>
+	<script type='text/javascript' src="js/foundation.min.js"></script>
+	<script>
+      $(document).foundation();
+    </script>
 </body>
 </html>
