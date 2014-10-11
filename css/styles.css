@@ -1,4 +1,4 @@
-@font-face {
+/*@font-face {
 	font-family: ProximaNova-Regular;
 	src: url("fonts/ProximaNova-Regular.otf") format('opentype');
 }
@@ -6,24 +6,30 @@
 @font-face {
 	font-family: ProximaNova-Light;
 	src: url("fonts/ProximaNova-Light.otf") format('opentype');
-}
+}*/
+
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100);
 
 
 body {
-	font-family: 'ProximaNova-Light';
+	font-family: 'Roboto';
+	font-weight: 100;
 }
 
 p {
 	margin-bottom: 5px;
+	font-weight: 100;
 }
 
 .title {
-	font-family: 'ProximaNova-Regular';
+	/*font-family: 'ProximaNova-Regular';*/
+	font-weight: 400;
 	font-size: 40px;
 }
 
 .focus, .location {
-	font-family: 'ProximaNova-Regular';
+	/*font-family: 'ProximaNova-Regular';*/
+	font-weight: 400;
 	font-size: 16px;
 	color: #ADADAD;
 }
@@ -33,7 +39,8 @@ section {
 }
 
 .pages {
-	font-family: 'ProximaNova-Regular';
+	/*font-family: 'ProximaNova-Regular';*/
+	font-weight: 400;
 	font-size: 16px;
 	margin-top: 4%;
 	border-bottom: thin solid #000000;
@@ -78,8 +85,12 @@ section {
 
 .background-text {
 	margin-top: 3%;
-	width: 60%;
+	width: 63%;
 	font-size: 16px;
+}
+
+.background-text p{
+	margin-top: 12px;
 }
 
 .link {
@@ -122,7 +133,8 @@ section {
 }
 
 .project-category, .heading, .blurbtitle {
-	font-family: 'ProximaNova-Regular';
+	/*font-family: 'ProximaNova-Regular';*/
+	font-weight: 400;
 }
 
 .work {
@@ -174,13 +186,18 @@ section {
 	width: 35%;
 }
 
+.vblurbtext {
+	font-size: 14px;
+	width: 70%;
+}
+
 .left {
 	float: right;
 	margin-left: -9.5%;
 	margin-top: 8.5%;
 }
 
-.front, .aegeanfront {
+.front, .aegeanfront, .narrativefront {
 	position: absolute;
 	margin-top: -18%;
 	margin-left: 37%;
@@ -188,7 +205,12 @@ section {
 
 .aegeanfront {
 	margin-left: 7%;
-	margin-top: -20%;
+	margin-top: -20%
+}
+
+.narrativefront {
+	margin-left: 28%;
+	margin-top: -27%;
 }
 
 .blurbtitle {
@@ -199,6 +221,12 @@ section {
 .text-blurb {
 	position: absolute;
 	margin-left: -100px;
+}
+
+#bi {
+	border-style: solid;
+    border-width: 1px;
+    border-color: #ececec;
 }
 
 
