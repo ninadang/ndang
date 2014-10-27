@@ -6,6 +6,7 @@
 	<meta name="description" content="Nina Dang">
 	<link rel="stylesheet" type="text/css" href="css/onepage-scroll.css">
 	<link rel="stylesheet" type="text/css" href="css/foundation.css">
+	<link href="css/lightbox.css" rel="stylesheet" />
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 	<script type='text/javascript' src="js/main.js"></script>
@@ -46,7 +47,7 @@
 	<div class="main">
 		<section class="page1" id="home">
 			<div class="home">
-				<img class="logo" src="img/logo.png">
+				<img class="logo" src="img/logo.png" alt="Nina Dang Logo">
 				<div>
 					<p class="title">Nina Dang</p>
 				</div>
@@ -69,7 +70,7 @@
 			<div class="sea">
 			<p class="pages" id="seapage">BACKGROUND</p>
 			<div class="background-text">
-				<p>I'm a senior at the University of Washington and will graduate with a B.S. in <a class="link" href="https://ischool.uw.edu/academics/informatics/what-is-informatics" target="_blank">Informatics</a> in June 2015. My major incorporates curriculum from <a class="link" href="http://en.wikipedia.org/wiki/Human%E2%80%93computer_interaction" target="_blank">HCI</a>, <a class="link" href="http://en.wikipedia.org/wiki/User-centered_design" target="_blank">UCD</a>, and Web Development.</p>
+				<p>I'm a senior at the University of Washington and will graduate with a B.S. in <a class="link" href="https://ischool.uw.edu/academics/informatics/what-is-informatics" target="_blank">Informatics</a> in June 2015. My major incorporates curriculum from <a class="link" href="http://en.wikipedia.org/wiki/Human%E2%80%93computer_interaction" target="_blank">HCI</a>, <a class="link" href="http://en.wikipedia.org/wiki/User-centered_design" target="_blank">UCD</a>, and Web Development (this site was coded by myself!).</p>
 				<p>I recently interned at <a class="link" href="http://us.blizzard.com/en-us/company/about/" target="_blank">Blizzard Entertainment</a>, where I developed a web application to enhance the usability of a Tableau Server. Currently, I'm the Teaching Assistant for a course on Data Visualization and Aesthetics. </p>
 				<p>Design is something that gets me moving, inspired, and at my brightest. Entering the industry is something I'm excitedly looking forward to.</p>
 			</div>
@@ -95,14 +96,14 @@
 					</div>
 					<div class="large-9 columns project-icons">
 						<div class="web">
-							<img class="work 1" src="img/blizzshot.png">
-							<img class="work 2" src="img/aegeanshot.png">
-							<img class="work 3" src="img/narrativeshot.png">
+							<img class="work 1" src="img/blizzshot.png" alt="BlizzStats Icon">
+							<img class="work 2" src="img/aegeanshot.png" alt="Aegean Icon">
+							<img class="work 3" src="img/narrativeshot.png" alt="Narrative Icon">
 						</div>
 						<div class="des">
-							<img class="work 4" id="bi" src="img/bishot.png">
-							<img class="work 5" src="img/infoshot.png">
-							<img class="work 6" src="img/day92shot.png">
+							<img class="work 4" id="bi" src="img/bishot.png" alt="Business Intelligence Icon">
+							<img class="work 5" src="img/infoshot.png" alt="Space Infographic Icon">
+							<img class="work 6" src="img/day92shot.png" alt="InfoCrafts Icon">
 						</div>
 					</div>
 
@@ -119,7 +120,14 @@
 									<p class="blurbtitle">Result</p>
 									<p class="blurbtext" id="result">I designed the server to be more personal to Blizzard through the aesthetic and the "New Game" categories. It also became personal to the user with the "Recently Viewed" feature.</p>
 								</div>
-								<a href="img/blizzmac.png" target="_blank"><img class="front" src="img/blizzmac.png" width="400px" height="400px"></a>
+								<div class="large-8 columns">
+									<a href="img/blizzmac.png" target="_blank" data-lightbox="blizzstats" data-title="Final and live version of BlizzStats"><img class="front" src="img/blizzmac.png" alt="BlizzStats UI" width="400px" height="400px"></a>
+									<div class="blizz-images">
+										<a class="lightlink" href="img/blizzstatssketch.jpg" target="_blank" data-lightbox="blizzstats" data-title="Initial Sketch of BlizzStats UI"><img class="lightcon" alt="BlizzStats Sketch" src="img/blizzstatssketch.jpg" width="120" height="70px"></a>
+										<a class="lightlink" href="img/blizzwireframe.png" target="_blank" data-lightbox="blizzstats" data-title="BlizzStats Wireframe"><img class="lightcon" alt="BlizzStats Wirerframe" src="img/blizzwireframe.png" height="76px" width="130px"></a>
+										<a class="lightlink" href="img/userflows.png" target="_blank" data-lightbox="blizzstats" data-title="User flows: 1) Navigating to a category 2) Navigating to a recently viewed dashboard"><img class="lightcon" alt="BlizzStats User Flows" src="img/userflows.png" height="80px" width="144px"></a>
+									</div>
+								</div>
 							</div>
 						</div>
 						<div class="description" id="2">
@@ -137,7 +145,14 @@
 									<p class="blurbtext" id="result">Seeing an influx of reactions from personal networks allows the impression to last after the excursion is over. Thus, the website features a chat functionality to encourage the use of social media during and after the excursion.
 									</p>
 								</div>
-								<a href="img/aegeanmac.png" target="_blank"><img class="aegeanfront" src="img/aegeanmac.png" width="400px" height="400px"></a>
+								<div class="large-8 columns">
+									<a href="img/aegeanmac.png" target="_blank" data-lightbox="aegean" data-title="Hifi Mockup of Aegean Cruises UI"><img class="aegeanfront" src="img/aegeanmac.png" alt="Aegean Cruises UI" width="400px" height="400px"></a>
+									<div class="aegean-images">
+										<a class="lightlink" href="img/aegeansketch.jpg" target="_blank" data-lightbox="aegean" data-title="Initial Sketch of Aegean Cruises UI"><img class="lightcon" alt="Aegean Sketch" src="img/aegeansketch.jpg" width="120" height="70px"></a>
+										<a class="lightlink" href="img/aegean_site_map.png" target="_blank" data-lightbox="aegean" data-title="Aegean Cruises Sitemap"><img class="lightcon" alt="AC Sitemap" src="img/aegean_site_map.png" height="76px" width="130px"></a>
+										<a class="lightlink" href="img/excursionwireframe.png" target="_blank" data-lightbox="aegean" data-title="Excursion Page Wireframe"><img class="lightcon" alt="Excursion Page Wireframe (Desktop and Mobile)" src="img/excursionwireframe.png" height="90px" width="162px"></a>
+									</div>
+								</div>
 							</div>
 						</div>
 						<div class="description" id="3">
@@ -152,7 +167,7 @@
 									<p class="blurbtitle">Result</p>
 									<p class="blurbtext" id="result">Upon visiting the site, a random prompt paired with an image is generated for the user. The user types their narrative in the text editor and can refer to helpers on the side if they need more inspiration. </p>
 								</div>
-								<a href="img/narrativemac.png" target="_blank"><img class="narrativefront" src="img/narrativemac.png" width="600px" height="400px"></a>
+								<a href="img/narrativemac.png" target="_blank"><img class="narrativefront" src="img/narrativemac.png" alt="Narrative UI" width="600px" height="400px"></a>
 							</div>
 						</div>
 						<div class="description" id="4">
@@ -161,7 +176,7 @@
 								<p class="affiliation">Blizzard Entertainment</p>
 								<p class="blurbtitle">Concept</p>
 								<p class="vblurbtext">The idea behind this logo was to recolor the original Blizzard Entertainment logo with the letters, "BI". The Business Intelligence department is commonly referred to as BI, and the faded graphs provide context as to what the department is all about (data!).</p><br>
-								<a href="img/bi.png" target="_blank"><img src="img/bi.png" width="300" height="50"></a>
+								<a href="img/bi.png" target="_blank"><img src="img/bi.png" alt="Business Intelligence Logo" width="300" height="50"></a>
 							</div>
 						</div>
 						<div class="description" id="5">
@@ -170,7 +185,7 @@
 								<p class="affiliation">Class Project</p>
 								<p class="blurbtitle">Concept</p>
 								<p class="vblurbtext">This infographic explores the history of space travel under the topic of distance. The colors and design elements were chosen to create a dark, futuristic-inspired aesthetic.</p><br>
-								<a href="img/space.png" target="_blank"><img src="img/space.png" width="445" height="50"></a>
+								<a href="img/space.png" target="_blank"><img src="img/space.png" alt="Space Infographic" width="445" height="50"></a>
 							</div>
 						</div>
 						<div class="description" id="6">
@@ -179,21 +194,25 @@
 								<p class="affiliation">Personal Project</p>
 								<p class="blurbtitle">Concept</p>
 								<p class="vblurbtext">To improve my skills in StarCraft II, I often watch videos created by my favorite video game personality, Sean "Day[9]" Plott. These visualizations are designed to be memory joggers, but I also wanted to enhance the content by through encoding, visual hierarchy, color, and shape associations. This helps to make absorbing the information presented in a simple manner.</p><br>
-								<a href="img/day9dark.png" target="_blank"><img src="img/day9dark.png" width="180" height="200"></a>
-								<a href="img/day92dark.png" target="_blank"><img src="img/day92dark.png" width="180" height="200"></a>
+								<a href="img/day9dark.png" target="_blank"><img src="img/day9dark.png" alt="Day 9 Infographic" width="180" height="200"></a>
+								<a href="img/day92dark.png" target="_blank"><img src="img/day92dark.png" alt="Day 9 Infographic" width="180" height="200"></a>
 							</div>
 						</div>
 		</section>
+		
 		<section class="page4" id="contact">
 			<p class="pages">CONTACT ME</p>
 			<div class="contact-info">
 				<p>ninadangt@gmail.com</p>
 				<p><a class="link" href="Nina_Resume.pdf" target="_blank">My Resume</a></p>
 				<p><a class="link" href="https://www.linkedin.com/pub/nina-dang/86/634/400" target="_blank">LinkedIn</a></p>
-				<p><a class="link" href="https://flic.kr/ps/2XpEj4" target="_blank">Flickr</a></p>
+				<!--<p><a class="link" href="https://flic.kr/ps/2XpEj4" target="_blank">Flickr</a></p>-->
 			</div>
 		</section>
+
 	</div>
+	<script src="js/jquery-1.11.0.min.js"></script>
+	<script src="js/lightbox.min.js"></script>
 	<script type='text/javascript' src="js/jquery.onepage-scroll.js"></script>
 	<script type='text/javascript' src="js/foundation.min.js"></script>
 	<script>

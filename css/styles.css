@@ -24,7 +24,7 @@ p {
 .title {
 	/*font-family: 'ProximaNova-Regular';*/
 	font-weight: 400;
-	font-size: 40px;
+	font-size: 45px;
 }
 
 .focus, .location {
@@ -242,9 +242,31 @@ section {
     border-color: #ececec;
 }
 
+.lightcon {
+	border-style: solid;
+    border-width: 3px;
+    border-color: #ececec;
+    border-radius: 2px;
+}
 
+.lightcon:hover {
+	border-color: #85DEDE;
+}
 
+.blizz-images {
+	margin-left: 40px;
+	margin-top: 15px;
+}
 
+.aegean-images {
+	margin-left: 30px;
+	margin-top: 15px;
+}
+
+.large-4 {
+	overflow: scroll;
+	height: 400px;
+}
 
 
 
